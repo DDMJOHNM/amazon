@@ -1,0 +1,23 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/johnmason/Documents/development/work/amazon/admin/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_144f0cf4"
+  },
+  {
+    "name": "product",
+    "path": "/product",
+    "component": "/Users/johnmason/Documents/development/work/amazon/admin/pages/product.vue",
+    "chunkName": "pages/product",
+    "_name": "_ee76a4b0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/johnmason/Documents/development/work/amazon/admin/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1590544b"
+  }
+]
