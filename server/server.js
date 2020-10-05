@@ -3,12 +3,14 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const dotenv = require('dotenv').config();
+const cors = require('cors');
 const app = express();
 const productRoutes = require("./routes/product")
 const categoryRoutes = require("./routes/category")
 const ownerRoutes = require("./routes/owner")
 //const User = require('./models/user'); 
 const Product = require("./models/product");
+
 
 
 mongoose.connect(
@@ -27,6 +29,7 @@ mongoose.connect(
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(cors());
 app.use("/api",productRoutes)
 app.use("/api",categoryRoutes)
 app.use("/api",ownerRoutes)
