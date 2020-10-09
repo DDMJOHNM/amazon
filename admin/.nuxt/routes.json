@@ -7,6 +7,13 @@
     "_name": "_144f0cf4"
   },
   {
+    "name": "category",
+    "path": "/category",
+    "component": "/Users/johnmason/Documents/development/work/amazon/admin/pages/category.vue",
+    "chunkName": "pages/category",
+    "_name": "_6f603715"
+  },
+  {
     "name": "product",
     "path": "/product",
     "component": "/Users/johnmason/Documents/development/work/amazon/admin/pages/product.vue",
